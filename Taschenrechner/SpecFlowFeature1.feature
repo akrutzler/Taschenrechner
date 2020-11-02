@@ -11,10 +11,10 @@ Scenario: Sinus berechenen
 
 Scenario: Cosinus berechenen
 	Given the number is 3.14159
-	When the sinus function is used
+	When the cosinus function is used
 	Then the result should be -1
 
 Scenario: Tangens berechenen
 	Given the number is 3.14159
-	When the sinus function is used
+	When the tangens function is used
 	Then the result should be 0
